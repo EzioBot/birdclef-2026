@@ -87,24 +87,25 @@ Note: the ensemble score is an internal validation diagnostic from saved fold ch
 
 ## Figures and Screenshots
 
-I do not include generated images automatically in this README. Add final selected images to:
+### Training Loss Curves
 
-```text
-assets/readme_images/
-```
+![Training loss curves](assets/readme_images/training_loss_curves.png)
 
-Recommended image files to add:
+### Validation AUC Curves
 
-| Image | Suggested filename | Purpose |
-| --- | --- | --- |
-| Log-mel spectrogram sample | `logmel_sample.png` | Shows the audio representation used by the model. |
-| Training loss curves | `training_loss_curves.png` | Shows convergence and overfitting/underfitting behavior. |
-| Validation AUC curves | `validation_auc_curves.png` | Shows validation performance over epochs. |
-| Pseudo-label volume by fold | `pseudo_label_volume.png` | Shows how much unlabeled data was kept per fold. |
-| Validation summary | `validation_summary.png` | Highlights the final local validation result. |
-| Pipeline diagram | `pipeline_diagram.png` | Explains the full workflow visually. |
+![Validation AUC curves](assets/readme_images/validation_auc_curves.png)
 
-After you provide the final images, they can be embedded here.
+### Pseudo-Label Volume by Fold
+
+![Pseudo-label volume by fold](assets/readme_images/pseudo_label_volume.png)
+
+### Ensemble Validation Summary
+
+![Ensemble validation summary](assets/readme_images/ensemble_validation_summary.png)
+
+### Fold Best AUC Comparison
+
+![Fold best AUC comparison](assets/readme_images/fold_best_auc_comparison.png)
 
 ## Notebook Overview
 
