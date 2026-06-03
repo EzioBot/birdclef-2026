@@ -224,9 +224,11 @@ birdclef-2026
 
 # run 
 *work 
+submission.csv
+docs/figures/
 
 # others
 .vscode
 *.docx
 *.pdf 
-
+assets 
