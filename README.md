@@ -107,6 +107,11 @@ Note: the ensemble score is an internal validation diagnostic from saved fold ch
 
 ![Fold best AUC comparison](assets/readme_images/fold_best_auc_comparison.png)
 
+### confusion matrix
+
+![multilabel confusion matrix](assets/readme_images/multilabel_confusion_matrix.png)
+
+
 ## Notebook Overview
 
 ### Notebook 01: Dataset Preparation and Audio Preprocessing
